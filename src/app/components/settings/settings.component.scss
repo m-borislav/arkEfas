@@ -1,0 +1,28 @@
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+h4{
+  color: #717171;
+}
+
+li{
+  color: #999999;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}

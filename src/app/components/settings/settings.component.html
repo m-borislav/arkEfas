@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Jekyll v4.0.1">
+  <title>Pricing example · Bootstrap</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/pricing/">
+
+  <!-- Bootstrap core CSS -->
+
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+  <!-- Custom styles for this template -->
+  <link href="settings.component.scss" rel="stylesheet">
+</head>
+
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+  <h1 class="display-4">Pricing</h1>
+  <p class="lead">Pricing table for different type of accounts</p>
+</div>
+
+<div class="container">
+  <div class="card-deck mb-3 text-center">
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Free</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title" style="color: #717171;">$0 <small class="text-muted">/ mo</small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>1 company included</li>
+          <li>limit of equipment: 3</li>
+          <li>Email support</li>
+          <li>Help center access</li>
+        </ul>
+        <a routerLink="/register"><button type="button" class="btn btn-lg btn-block btn-outline-warning">Sign up for free</button></a>
+      </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Pro</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title" style="color: #717171;">$15 <small class="text-muted">/ mo</small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>1 company included</li>
+          <li>limit of equipment: 15</li>
+          <li>Priority email support</li>
+          <li>Help center access</li>
+        </ul>
+        <a routerLink="/profile"><button type="button" class="btn btn-lg btn-block btn-warning">Get started</button></a>
+      </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Enterprise</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title" style="color: #717171;">$29 <small class="text-muted">/ mo</small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>5 company included</li>
+          <li>no limits for equipment</li>
+          <li>Phone and email support</li>
+          <li>Help center access</li>
+        </ul>
+        <a routerLink="/profile"><button type="button" class="btn btn-lg btn-block btn-warning">Contact us</button></a>
+      </div>
+    </div>
+  </div>
+</div>
